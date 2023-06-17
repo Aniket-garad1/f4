@@ -1,0 +1,67 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #000;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  color:#fff;
+  width:60%
+}
+
+.form-container h1{
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.App input{
+  background-color: #000;
+  margin-bottom: 1.5em;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;width: 100%;
+  padding: .5em;
+  font-size: 1.5em;
+  
+}
+
+.App input:placeholder{
+  color: rgba(255, 255, 255, .5);
+}
+
+.App button{
+  font-size: 1rem;
+  font-weight: bold;
+  width: 15%;
+  padding: .7em;
+  margin-bottom: 2rem;
+}
+
+.error-msg{
+  color: red;
+  font-size: 1.5rem;
+}
+
+.success-msg{
+  color: green;
+  font-size: 1.5rem;
+}
